@@ -1,3 +1,3 @@
 get '/_internal/personalizations/interests/:id' do
-  res 'cerebro/interest'
+  reply_with 'cerebro/interest'
 end

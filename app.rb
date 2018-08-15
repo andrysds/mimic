@@ -6,14 +6,14 @@ before do
 end
 
 get '/' do
-  res 'index'
+  reply_with 'index'
 end
 
 not_found do
   status 404
-  res 'not_found'
+  reply_with 'not_found'
 end
 
-def res(path)
+def reply_with(path)
   File.read("responses/#{path}.json")
 end

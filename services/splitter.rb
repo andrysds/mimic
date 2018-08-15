@@ -1,3 +1,3 @@
 get '/experiments/:name/participants' do
-  res 'splitter/alternative'
+  reply_with 'splitter/alternative'
 end

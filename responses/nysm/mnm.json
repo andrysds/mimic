@@ -1,0 +1,896 @@
+{
+  "data": {
+    "products": [
+      {
+        "id": "abc12300",
+        "price": 100000,
+        "name": "1 Rupiah (Picture of President Soekarno)",
+        "url": "https://www.bukalapak.com/p/hobbies/old-money/1-rupiah-picture-of-president-soekarno",
+        "condition": "Baru",
+        "for_sale": true,
+        "active": true,
+        "stock": 2,
+        "weight": 5,
+        "description": "Indonesia old money collection with picture of president Soekarno. Limited edition!",
+        "product_sin": [],
+        "rating": {
+          "average_rate": 2.5,
+          "user_count": 1
+        },
+        "state": "available",
+        "state_description": [],
+        "stats": {
+          "view_count": 6,
+          "interest_count": 0,
+          "sold_count": 1,
+          "waiting_payment_count": 0
+        },
+        "relisted_at": "2015-11-17T11:46:36.164Z",
+        "created_at": "2015-11-16T21:52:32.000Z",
+        "properties": {
+          "brand": "Bank Indonesia"
+        },
+        "shipping": {
+          "force_insurance": false,
+          "free_shipping_coverage": []
+        },
+        "category": {
+          "id": 891,
+          "name": "Old Money",
+          "permalink": "hobbies/old-money",
+          "structure": [
+            "Hobbies",
+            "Old Money"
+          ]
+        },
+        "images": {
+          "ids": [
+            94212345,
+            94212356
+          ],
+          "large_urls": [
+            "https://s3.bukalapak.com/products/large/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/large/1-rupiah-soekarno-back.jpg"
+          ],
+          "small_urls": [
+            "https://s3.bukalapak.com/products/medium/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/medium/1-rupiah-soekarno-back.jpg"
+          ]
+        },
+        "deal": {
+          "original_price": 100000,
+          "discount_price": 80000,
+          "percentage": 20,
+          "applied_date": "2015-11-17T11:46:36.164Z",
+          "expired_date": "2015-11-30T23:59:59.000Z"
+        },
+        "daily_deal": {
+          "percentage": 20,
+          "original_price": 100000,
+          "discount_price": 80000,
+          "flash_deal_stock": 10,
+          "stock": 6,
+          "min_quantity": 2,
+          "max_quantity": 5,
+          "start_date": "2015-11-17T11:00:00.000Z",
+          "end_date": "2015-11-17T13:00:00.000Z",
+          "state": "current"
+        },
+        "wholesales": [
+          {
+            "lower_bound": 6,
+            "price": 7000
+          }
+        ],
+        "installments": [
+          {
+            "bank_issuer": "bni",
+            "bank_issuer_name": "Bank Negara Indonesia",
+            "terms": [
+              3,
+              6,
+              12
+            ],
+            "logo_url": "https://www.bukalapak.com/images/banks/bni.jpg"
+          }
+        ],
+        "assurance": true,
+        "video_url": "https://www.youtube.com/watch?v=DSSUOcuUego",
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "sku_name": "0000001",
+        "sla": {
+          "type": "custom",
+          "value": 7
+        },
+        "store": {
+          "id": 12345,
+          "name": "Depot Joyoboyo",
+          "description": "A place for finding classic handicraft and modern gadget",
+          "url": "https://www.bukalapak.com/brotoseno",
+          "term_and_condition": "Please double check item stock before buying.",
+          "level": {
+            "name": "Top Seller",
+            "image_url": "https://img0.bukalapak.com/badges/seller-level-9.png"
+          },
+          "delivery_time": "< 1 jam",
+          "closing": {
+            "closed": true,
+            "closed_reason": "Annual vacation, we will be back soon!",
+            "reopen_date": "2015-09-21T00:00:00Z"
+          },
+          "inactivity": {
+            "inactive": true,
+            "last_appear_at": "2015-09-21T00:00:00Z"
+          },
+          "premium_level": "none",
+          "premium_top_merchant": true,
+          "reviews": {
+            "positive": 100,
+            "negative": 5
+          },
+          "brand_seller": false,
+          "avatar_url": "https://www.bukalapak.com/image/avatar.jpg",
+          "rejection": {
+            "rejected": 0,
+            "recent_transactions": 10
+          },
+          "carriers": [
+            "JNE REG",
+            "JNE YES",
+            "Pos Kilat"
+          ],
+          "address": {
+            "city": "Semarang",
+            "province": "Jawa Tengah"
+          },
+          "alert": "some notes"
+        }
+      },
+      {
+        "id": "abc12301",
+        "price": 100000,
+        "name": "1 Rupiah (Picture of President Soekarno)",
+        "url": "https://www.bukalapak.com/p/hobbies/old-money/1-rupiah-picture-of-president-soekarno",
+        "condition": "Baru",
+        "for_sale": true,
+        "active": true,
+        "stock": 2,
+        "weight": 5,
+        "description": "Indonesia old money collection with picture of president Soekarno. Limited edition!",
+        "product_sin": [],
+        "rating": {
+          "average_rate": 2.5,
+          "user_count": 1
+        },
+        "state": "available",
+        "state_description": [],
+        "stats": {
+          "view_count": 6,
+          "interest_count": 0,
+          "sold_count": 1,
+          "waiting_payment_count": 0
+        },
+        "relisted_at": "2015-11-17T11:46:36.164Z",
+        "created_at": "2015-11-16T21:52:32.000Z",
+        "properties": {
+          "brand": "Bank Indonesia"
+        },
+        "shipping": {
+          "force_insurance": false,
+          "free_shipping_coverage": []
+        },
+        "category": {
+          "id": 891,
+          "name": "Old Money",
+          "permalink": "hobbies/old-money",
+          "structure": [
+            "Hobbies",
+            "Old Money"
+          ]
+        },
+        "images": {
+          "ids": [
+            94212345,
+            94212356
+          ],
+          "large_urls": [
+            "https://s3.bukalapak.com/products/large/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/large/1-rupiah-soekarno-back.jpg"
+          ],
+          "small_urls": [
+            "https://s3.bukalapak.com/products/medium/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/medium/1-rupiah-soekarno-back.jpg"
+          ]
+        },
+        "deal": {
+          "original_price": 100000,
+          "discount_price": 80000,
+          "percentage": 20,
+          "applied_date": "2015-11-17T11:46:36.164Z",
+          "expired_date": "2015-11-30T23:59:59.000Z"
+        },
+        "daily_deal": {
+          "percentage": 20,
+          "original_price": 100000,
+          "discount_price": 80000,
+          "flash_deal_stock": 10,
+          "stock": 6,
+          "min_quantity": 2,
+          "max_quantity": 5,
+          "start_date": "2015-11-17T11:00:00.000Z",
+          "end_date": "2015-11-17T13:00:00.000Z",
+          "state": "current"
+        },
+        "wholesales": [
+          {
+            "lower_bound": 6,
+            "price": 7000
+          }
+        ],
+        "installments": [
+          {
+            "bank_issuer": "bni",
+            "bank_issuer_name": "Bank Negara Indonesia",
+            "terms": [
+              3,
+              6,
+              12
+            ],
+            "logo_url": "https://www.bukalapak.com/images/banks/bni.jpg"
+          }
+        ],
+        "assurance": true,
+        "video_url": "https://www.youtube.com/watch?v=DSSUOcuUego",
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "sku_name": "0000001",
+        "sla": {
+          "type": "custom",
+          "value": 7
+        },
+        "store": {
+          "id": 12345,
+          "name": "Depot Joyoboyo",
+          "description": "A place for finding classic handicraft and modern gadget",
+          "url": "https://www.bukalapak.com/brotoseno",
+          "term_and_condition": "Please double check item stock before buying.",
+          "level": {
+            "name": "Top Seller",
+            "image_url": "https://img0.bukalapak.com/badges/seller-level-9.png"
+          },
+          "delivery_time": "< 1 jam",
+          "closing": {
+            "closed": true,
+            "closed_reason": "Annual vacation, we will be back soon!",
+            "reopen_date": "2015-09-21T00:00:00Z"
+          },
+          "inactivity": {
+            "inactive": true,
+            "last_appear_at": "2015-09-21T00:00:00Z"
+          },
+          "premium_level": "none",
+          "premium_top_merchant": true,
+          "reviews": {
+            "positive": 100,
+            "negative": 5
+          },
+          "brand_seller": false,
+          "avatar_url": "https://www.bukalapak.com/image/avatar.jpg",
+          "rejection": {
+            "rejected": 0,
+            "recent_transactions": 10
+          },
+          "carriers": [
+            "JNE REG",
+            "JNE YES",
+            "Pos Kilat"
+          ],
+          "address": {
+            "city": "Semarang",
+            "province": "Jawa Tengah"
+          },
+          "alert": "some notes"
+        }
+      },
+      {
+        "id": "abc12302",
+        "price": 100000,
+        "name": "1 Rupiah (Picture of President Soekarno)",
+        "url": "https://www.bukalapak.com/p/hobbies/old-money/1-rupiah-picture-of-president-soekarno",
+        "condition": "Baru",
+        "for_sale": true,
+        "active": true,
+        "stock": 2,
+        "weight": 5,
+        "description": "Indonesia old money collection with picture of president Soekarno. Limited edition!",
+        "product_sin": [],
+        "rating": {
+          "average_rate": 2.5,
+          "user_count": 1
+        },
+        "state": "available",
+        "state_description": [],
+        "stats": {
+          "view_count": 6,
+          "interest_count": 0,
+          "sold_count": 1,
+          "waiting_payment_count": 0
+        },
+        "relisted_at": "2015-11-17T11:46:36.164Z",
+        "created_at": "2015-11-16T21:52:32.000Z",
+        "properties": {
+          "brand": "Bank Indonesia"
+        },
+        "shipping": {
+          "force_insurance": false,
+          "free_shipping_coverage": []
+        },
+        "category": {
+          "id": 891,
+          "name": "Old Money",
+          "permalink": "hobbies/old-money",
+          "structure": [
+            "Hobbies",
+            "Old Money"
+          ]
+        },
+        "images": {
+          "ids": [
+            94212345,
+            94212356
+          ],
+          "large_urls": [
+            "https://s3.bukalapak.com/products/large/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/large/1-rupiah-soekarno-back.jpg"
+          ],
+          "small_urls": [
+            "https://s3.bukalapak.com/products/medium/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/medium/1-rupiah-soekarno-back.jpg"
+          ]
+        },
+        "deal": {
+          "original_price": 100000,
+          "discount_price": 80000,
+          "percentage": 20,
+          "applied_date": "2015-11-17T11:46:36.164Z",
+          "expired_date": "2015-11-30T23:59:59.000Z"
+        },
+        "daily_deal": {
+          "percentage": 20,
+          "original_price": 100000,
+          "discount_price": 80000,
+          "flash_deal_stock": 10,
+          "stock": 6,
+          "min_quantity": 2,
+          "max_quantity": 5,
+          "start_date": "2015-11-17T11:00:00.000Z",
+          "end_date": "2015-11-17T13:00:00.000Z",
+          "state": "current"
+        },
+        "wholesales": [
+          {
+            "lower_bound": 6,
+            "price": 7000
+          }
+        ],
+        "installments": [
+          {
+            "bank_issuer": "bni",
+            "bank_issuer_name": "Bank Negara Indonesia",
+            "terms": [
+              3,
+              6,
+              12
+            ],
+            "logo_url": "https://www.bukalapak.com/images/banks/bni.jpg"
+          }
+        ],
+        "assurance": true,
+        "video_url": "https://www.youtube.com/watch?v=DSSUOcuUego",
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "sku_name": "0000001",
+        "sla": {
+          "type": "custom",
+          "value": 7
+        },
+        "store": {
+          "id": 12345,
+          "name": "Depot Joyoboyo",
+          "description": "A place for finding classic handicraft and modern gadget",
+          "url": "https://www.bukalapak.com/brotoseno",
+          "term_and_condition": "Please double check item stock before buying.",
+          "level": {
+            "name": "Top Seller",
+            "image_url": "https://img0.bukalapak.com/badges/seller-level-9.png"
+          },
+          "delivery_time": "< 1 jam",
+          "closing": {
+            "closed": true,
+            "closed_reason": "Annual vacation, we will be back soon!",
+            "reopen_date": "2015-09-21T00:00:00Z"
+          },
+          "inactivity": {
+            "inactive": true,
+            "last_appear_at": "2015-09-21T00:00:00Z"
+          },
+          "premium_level": "none",
+          "premium_top_merchant": true,
+          "reviews": {
+            "positive": 100,
+            "negative": 5
+          },
+          "brand_seller": false,
+          "avatar_url": "https://www.bukalapak.com/image/avatar.jpg",
+          "rejection": {
+            "rejected": 0,
+            "recent_transactions": 10
+          },
+          "carriers": [
+            "JNE REG",
+            "JNE YES",
+            "Pos Kilat"
+          ],
+          "address": {
+            "city": "Semarang",
+            "province": "Jawa Tengah"
+          },
+          "alert": "some notes"
+        }
+      },
+      {
+        "id": "abc12303",
+        "price": 100000,
+        "name": "1 Rupiah (Picture of President Soekarno)",
+        "url": "https://www.bukalapak.com/p/hobbies/old-money/1-rupiah-picture-of-president-soekarno",
+        "condition": "Baru",
+        "for_sale": true,
+        "active": true,
+        "stock": 2,
+        "weight": 5,
+        "description": "Indonesia old money collection with picture of president Soekarno. Limited edition!",
+        "product_sin": [],
+        "rating": {
+          "average_rate": 2.5,
+          "user_count": 1
+        },
+        "state": "available",
+        "state_description": [],
+        "stats": {
+          "view_count": 6,
+          "interest_count": 0,
+          "sold_count": 1,
+          "waiting_payment_count": 0
+        },
+        "relisted_at": "2015-11-17T11:46:36.164Z",
+        "created_at": "2015-11-16T21:52:32.000Z",
+        "properties": {
+          "brand": "Bank Indonesia"
+        },
+        "shipping": {
+          "force_insurance": false,
+          "free_shipping_coverage": []
+        },
+        "category": {
+          "id": 891,
+          "name": "Old Money",
+          "permalink": "hobbies/old-money",
+          "structure": [
+            "Hobbies",
+            "Old Money"
+          ]
+        },
+        "images": {
+          "ids": [
+            94212345,
+            94212356
+          ],
+          "large_urls": [
+            "https://s3.bukalapak.com/products/large/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/large/1-rupiah-soekarno-back.jpg"
+          ],
+          "small_urls": [
+            "https://s3.bukalapak.com/products/medium/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/medium/1-rupiah-soekarno-back.jpg"
+          ]
+        },
+        "deal": {
+          "original_price": 100000,
+          "discount_price": 80000,
+          "percentage": 20,
+          "applied_date": "2015-11-17T11:46:36.164Z",
+          "expired_date": "2015-11-30T23:59:59.000Z"
+        },
+        "daily_deal": {
+          "percentage": 20,
+          "original_price": 100000,
+          "discount_price": 80000,
+          "flash_deal_stock": 10,
+          "stock": 6,
+          "min_quantity": 2,
+          "max_quantity": 5,
+          "start_date": "2015-11-17T11:00:00.000Z",
+          "end_date": "2015-11-17T13:00:00.000Z",
+          "state": "current"
+        },
+        "wholesales": [
+          {
+            "lower_bound": 6,
+            "price": 7000
+          }
+        ],
+        "installments": [
+          {
+            "bank_issuer": "bni",
+            "bank_issuer_name": "Bank Negara Indonesia",
+            "terms": [
+              3,
+              6,
+              12
+            ],
+            "logo_url": "https://www.bukalapak.com/images/banks/bni.jpg"
+          }
+        ],
+        "assurance": true,
+        "video_url": "https://www.youtube.com/watch?v=DSSUOcuUego",
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "sku_name": "0000001",
+        "sla": {
+          "type": "custom",
+          "value": 7
+        },
+        "store": {
+          "id": 12345,
+          "name": "Depot Joyoboyo",
+          "description": "A place for finding classic handicraft and modern gadget",
+          "url": "https://www.bukalapak.com/brotoseno",
+          "term_and_condition": "Please double check item stock before buying.",
+          "level": {
+            "name": "Top Seller",
+            "image_url": "https://img0.bukalapak.com/badges/seller-level-9.png"
+          },
+          "delivery_time": "< 1 jam",
+          "closing": {
+            "closed": true,
+            "closed_reason": "Annual vacation, we will be back soon!",
+            "reopen_date": "2015-09-21T00:00:00Z"
+          },
+          "inactivity": {
+            "inactive": true,
+            "last_appear_at": "2015-09-21T00:00:00Z"
+          },
+          "premium_level": "none",
+          "premium_top_merchant": true,
+          "reviews": {
+            "positive": 100,
+            "negative": 5
+          },
+          "brand_seller": false,
+          "avatar_url": "https://www.bukalapak.com/image/avatar.jpg",
+          "rejection": {
+            "rejected": 0,
+            "recent_transactions": 10
+          },
+          "carriers": [
+            "JNE REG",
+            "JNE YES",
+            "Pos Kilat"
+          ],
+          "address": {
+            "city": "Semarang",
+            "province": "Jawa Tengah"
+          },
+          "alert": "some notes"
+        }
+      },
+      {
+        "id": "abc12304",
+        "price": 100000,
+        "name": "1 Rupiah (Picture of President Soekarno)",
+        "url": "https://www.bukalapak.com/p/hobbies/old-money/1-rupiah-picture-of-president-soekarno",
+        "condition": "Baru",
+        "for_sale": true,
+        "active": true,
+        "stock": 2,
+        "weight": 5,
+        "description": "Indonesia old money collection with picture of president Soekarno. Limited edition!",
+        "product_sin": [],
+        "rating": {
+          "average_rate": 2.5,
+          "user_count": 1
+        },
+        "state": "available",
+        "state_description": [],
+        "stats": {
+          "view_count": 6,
+          "interest_count": 0,
+          "sold_count": 1,
+          "waiting_payment_count": 0
+        },
+        "relisted_at": "2015-11-17T11:46:36.164Z",
+        "created_at": "2015-11-16T21:52:32.000Z",
+        "properties": {
+          "brand": "Bank Indonesia"
+        },
+        "shipping": {
+          "force_insurance": false,
+          "free_shipping_coverage": []
+        },
+        "category": {
+          "id": 891,
+          "name": "Old Money",
+          "permalink": "hobbies/old-money",
+          "structure": [
+            "Hobbies",
+            "Old Money"
+          ]
+        },
+        "images": {
+          "ids": [
+            94212345,
+            94212356
+          ],
+          "large_urls": [
+            "https://s3.bukalapak.com/products/large/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/large/1-rupiah-soekarno-back.jpg"
+          ],
+          "small_urls": [
+            "https://s3.bukalapak.com/products/medium/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/medium/1-rupiah-soekarno-back.jpg"
+          ]
+        },
+        "deal": {
+          "original_price": 100000,
+          "discount_price": 80000,
+          "percentage": 20,
+          "applied_date": "2015-11-17T11:46:36.164Z",
+          "expired_date": "2015-11-30T23:59:59.000Z"
+        },
+        "daily_deal": {
+          "percentage": 20,
+          "original_price": 100000,
+          "discount_price": 80000,
+          "flash_deal_stock": 10,
+          "stock": 6,
+          "min_quantity": 2,
+          "max_quantity": 5,
+          "start_date": "2015-11-17T11:00:00.000Z",
+          "end_date": "2015-11-17T13:00:00.000Z",
+          "state": "current"
+        },
+        "wholesales": [
+          {
+            "lower_bound": 6,
+            "price": 7000
+          }
+        ],
+        "installments": [
+          {
+            "bank_issuer": "bni",
+            "bank_issuer_name": "Bank Negara Indonesia",
+            "terms": [
+              3,
+              6,
+              12
+            ],
+            "logo_url": "https://www.bukalapak.com/images/banks/bni.jpg"
+          }
+        ],
+        "assurance": true,
+        "video_url": "https://www.youtube.com/watch?v=DSSUOcuUego",
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "sku_name": "0000001",
+        "sla": {
+          "type": "custom",
+          "value": 7
+        },
+        "store": {
+          "id": 12345,
+          "name": "Depot Joyoboyo",
+          "description": "A place for finding classic handicraft and modern gadget",
+          "url": "https://www.bukalapak.com/brotoseno",
+          "term_and_condition": "Please double check item stock before buying.",
+          "level": {
+            "name": "Top Seller",
+            "image_url": "https://img0.bukalapak.com/badges/seller-level-9.png"
+          },
+          "delivery_time": "< 1 jam",
+          "closing": {
+            "closed": true,
+            "closed_reason": "Annual vacation, we will be back soon!",
+            "reopen_date": "2015-09-21T00:00:00Z"
+          },
+          "inactivity": {
+            "inactive": true,
+            "last_appear_at": "2015-09-21T00:00:00Z"
+          },
+          "premium_level": "none",
+          "premium_top_merchant": true,
+          "reviews": {
+            "positive": 100,
+            "negative": 5
+          },
+          "brand_seller": false,
+          "avatar_url": "https://www.bukalapak.com/image/avatar.jpg",
+          "rejection": {
+            "rejected": 0,
+            "recent_transactions": 10
+          },
+          "carriers": [
+            "JNE REG",
+            "JNE YES",
+            "Pos Kilat"
+          ],
+          "address": {
+            "city": "Semarang",
+            "province": "Jawa Tengah"
+          },
+          "alert": "some notes"
+        }
+      },
+      {
+        "id": "abc12305",
+        "price": 100000,
+        "name": "1 Rupiah (Picture of President Soekarno)",
+        "url": "https://www.bukalapak.com/p/hobbies/old-money/1-rupiah-picture-of-president-soekarno",
+        "condition": "Baru",
+        "for_sale": true,
+        "active": true,
+        "stock": 2,
+        "weight": 5,
+        "description": "Indonesia old money collection with picture of president Soekarno. Limited edition!",
+        "product_sin": [],
+        "rating": {
+          "average_rate": 2.5,
+          "user_count": 1
+        },
+        "state": "available",
+        "state_description": [],
+        "stats": {
+          "view_count": 6,
+          "interest_count": 0,
+          "sold_count": 1,
+          "waiting_payment_count": 0
+        },
+        "relisted_at": "2015-11-17T11:46:36.164Z",
+        "created_at": "2015-11-16T21:52:32.000Z",
+        "properties": {
+          "brand": "Bank Indonesia"
+        },
+        "shipping": {
+          "force_insurance": false,
+          "free_shipping_coverage": []
+        },
+        "category": {
+          "id": 891,
+          "name": "Old Money",
+          "permalink": "hobbies/old-money",
+          "structure": [
+            "Hobbies",
+            "Old Money"
+          ]
+        },
+        "images": {
+          "ids": [
+            94212345,
+            94212356
+          ],
+          "large_urls": [
+            "https://s3.bukalapak.com/products/large/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/large/1-rupiah-soekarno-back.jpg"
+          ],
+          "small_urls": [
+            "https://s3.bukalapak.com/products/medium/1-rupiah-soekarno-front.jpg",
+            "https://s2.bukalapak.com/products/medium/1-rupiah-soekarno-back.jpg"
+          ]
+        },
+        "deal": {
+          "original_price": 100000,
+          "discount_price": 80000,
+          "percentage": 20,
+          "applied_date": "2015-11-17T11:46:36.164Z",
+          "expired_date": "2015-11-30T23:59:59.000Z"
+        },
+        "daily_deal": {
+          "percentage": 20,
+          "original_price": 100000,
+          "discount_price": 80000,
+          "flash_deal_stock": 10,
+          "stock": 6,
+          "min_quantity": 2,
+          "max_quantity": 5,
+          "start_date": "2015-11-17T11:00:00.000Z",
+          "end_date": "2015-11-17T13:00:00.000Z",
+          "state": "current"
+        },
+        "wholesales": [
+          {
+            "lower_bound": 6,
+            "price": 7000
+          }
+        ],
+        "installments": [
+          {
+            "bank_issuer": "bni",
+            "bank_issuer_name": "Bank Negara Indonesia",
+            "terms": [
+              3,
+              6,
+              12
+            ],
+            "logo_url": "https://www.bukalapak.com/images/banks/bni.jpg"
+          }
+        ],
+        "assurance": true,
+        "video_url": "https://www.youtube.com/watch?v=DSSUOcuUego",
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "sku_name": "0000001",
+        "sla": {
+          "type": "custom",
+          "value": 7
+        },
+        "store": {
+          "id": 12345,
+          "name": "Depot Joyoboyo",
+          "description": "A place for finding classic handicraft and modern gadget",
+          "url": "https://www.bukalapak.com/brotoseno",
+          "term_and_condition": "Please double check item stock before buying.",
+          "level": {
+            "name": "Top Seller",
+            "image_url": "https://img0.bukalapak.com/badges/seller-level-9.png"
+          },
+          "delivery_time": "< 1 jam",
+          "closing": {
+            "closed": true,
+            "closed_reason": "Annual vacation, we will be back soon!",
+            "reopen_date": "2015-09-21T00:00:00Z"
+          },
+          "inactivity": {
+            "inactive": true,
+            "last_appear_at": "2015-09-21T00:00:00Z"
+          },
+          "premium_level": "none",
+          "premium_top_merchant": true,
+          "reviews": {
+            "positive": 100,
+            "negative": 5
+          },
+          "brand_seller": false,
+          "avatar_url": "https://www.bukalapak.com/image/avatar.jpg",
+          "rejection": {
+            "rejected": 0,
+            "recent_transactions": 10
+          },
+          "carriers": [
+            "JNE REG",
+            "JNE YES",
+            "Pos Kilat"
+          ],
+          "address": {
+            "city": "Semarang",
+            "province": "Jawa Tengah"
+          },
+          "alert": "some notes"
+        }
+      }
+    ],
+    "sources": {
+      "abc12300": "fvt",
+      "abc12301": "fvt",
+      "abc12302": "fvt",
+      "abc12303": "fvt",
+      "abc12304": "fvt",
+      "abc12305": "fvt"
+    }
+  },
+  "meta": {
+    "http_status": 200,
+    "limit": 6,
+    "offset": 0,
+    "total": 6
+  }
+}

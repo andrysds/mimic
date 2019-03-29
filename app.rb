@@ -1,5 +1,7 @@
 require 'sinatra'
 
+set :port, (ENV['PORT'] || 4567)
+
 before do
   content_type 'application/json'
 end

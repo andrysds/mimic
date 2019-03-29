@@ -1,0 +1,6 @@
+{
+    "message": "This is example response",
+    "meta": {
+      "http_status": 200
+    }
+  }

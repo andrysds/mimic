@@ -1,19 +1,22 @@
 require 'sinatra'
-Dir["services/*.rb"].each {|file| require "./#{file}" }
 
 before do
   content_type 'application/json'
 end
 
-get '/' do
-  reply_with 'index'
+get '/*' do
+  if response_exist? request.path_info
+    reply_with request.path_info
+  else
+    status 404
+    reply_with '/not_found'
+  end
 end
 
-not_found do
-  status 404
-  reply_with 'not_found'
+def response_exist?(fpath)
+  File.exist? "responses#{fpath}.json"
 end
 
-def reply_with(path)
-  File.read("responses/#{path}.json")
+def reply_with(fpath)
+  File.read "responses#{fpath}.json"
 end

@@ -1,58 +1,51 @@
 require 'sinatra'
 
+USER_ACTIVITIES = [
+  {type: 'view_product', pid: 108},
+  {type: 'add_to_cart', pid: 108},
+  {type: 'add_to_fav', pid: 108},
+  {type: 'buy', pid: 108},
+  {type: 'view_product', pid: 109},
+  {type: 'add_to_cart', pid: 109},
+  {type: 'add_to_fav', pid: 109},
+  {type: 'view_product', pid: 110},
+  {type: 'add_to_cart', pid: 110},
+  {type: 'add_to_fav', pid: 110},
+].freeze
+
 set :port, (ENV['PORT'] || 4567)
 
 before do
   content_type 'application/json'
+
+  request.body.rewind
+  @request_payload = JSON.parse request.body.read
+  @edge_filter_values = @request_payload['edge_filter_values']
+  @offset = @request_payload['offset'].to_i
+  @limit = @request_payload['limit'] || 1
 end
 
-get '/*' do
-  reply request
+post '/_internal/griffin/vertex/search-adjacent-vertex' do
+  build_activities(@edge_filter_values)
+  vertex_edge_data = @activities.map{ |x| { product_id: x[:pid] } }
+  {
+    data: { vertex_edge_data: vertex_edge_data, eod: @eod },
+    meta: { http_status: "200" }
+  }.to_json
 end
 
-post '/*' do
-  reply request
+post '/_internal/griffin/vertex/search-adjacent-vertex-edge' do
+  build_activities(@edge_filter_values&.first)
+  vertex_edge_data = @activities.map{ |x| { user_actv_type: x[:type], product_id: x[:pid] } }
+  {
+    data: { vertex_edge_data: vertex_edge_data, eod: @eod },
+    meta: { http_status: "200" }
+  }.to_json
 end
 
-put '/*' do
-  reply request
-end
-
-patch '/*' do
-  reply request
-end
-
-delete '/*' do
-  reply request
-end
-
-options '/*' do
-  reply request
-end
-
-link '/*' do
-  reply request
-end
-
-unlink '/*' do
-  reply request
-end
-
-def reply(req)
-  fpath = req.request_method + req.path_info
-  fpath += 'index' if req.path_info == '/'
-  if response_exist? fpath
-    reply_with fpath
-  else
-    status 404
-    reply_with 'not_found'
-  end
-end
-
-def response_exist?(fpath)
-  File.exist? "responses/#{fpath}.json"
-end
-
-def reply_with(fpath)
-  File.read "responses/#{fpath}.json"
+def build_activities(filters)
+  @activities = USER_ACTIVITIES.select{ |x| filters.include?(x[:type]) }
+  @eod = @offset + @limit >= @activities.length
+  @activities = @activities.drop(@offset)
+  @activities = @activities.take(@limit)
 end

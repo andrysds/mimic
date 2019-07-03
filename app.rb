@@ -3,16 +3,16 @@
 require 'sinatra'
 
 USER_ACTIVITIES = [
-  { type: 'view_product', pid: 201 },
-  { type: 'view_product', pid: 202 },
-  { type: 'view_product', pid: 203 },
-  { type: 'add_to_cart', pid: 204 },
-  { type: 'add_to_cart', pid: 205 },
-  { type: 'add_to_cart', pid: 206 },
-  { type: 'buy', pid: 207 },
-  { type: 'add_to_fav', pid: 208 },
-  { type: 'add_to_fav', pid: 209 },
-  { type: 'add_to_fav', pid: 210 }
+  { type: 'view_product', pid: '201' },
+  { type: 'view_product', pid: '202' },
+  { type: 'view_product', pid: '203' },
+  { type: 'add_to_cart', pid: '204' },
+  { type: 'add_to_cart', pid: '205' },
+  { type: 'add_to_cart', pid: '206' },
+  { type: 'buy', pid: '207' },
+  { type: 'add_to_fav', pid: '208' },
+  { type: 'add_to_fav', pid: '209' },
+  { type: 'add_to_fav', pid: '210' }
 ].freeze
 
 set :port, (ENV['PORT'] || 4567)

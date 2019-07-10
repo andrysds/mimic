@@ -3,16 +3,16 @@
 require 'sinatra'
 
 USER_ACTIVITIES = [
-  { type: 'view_product', pid: '201' },
-  { type: 'view_product', pid: '202' },
-  { type: 'view_product', pid: '203' },
-  { type: 'add_to_cart', pid: '204' },
-  { type: 'add_to_cart', pid: '205' },
-  { type: 'add_to_cart', pid: '206' },
-  { type: 'buy', pid: '207' },
-  { type: 'add_to_fav', pid: '208' },
-  { type: 'add_to_fav', pid: '209' },
-  { type: 'add_to_fav', pid: '210' }
+  { type: 'view_product', pid: '201', created_at: Time.new(2019, 07, 10) },
+  { type: 'view_product', pid: '202', created_at: Time.new(2019, 07, 10) },
+  { type: 'view_product', pid: '203', created_at: Time.new(2019, 07, 10) },
+  { type: 'add_to_cart', pid: '204', created_at: Time.new(2019, 07, 10) },
+  { type: 'add_to_cart', pid: '205', created_at: Time.new(2019, 07, 10) },
+  { type: 'add_to_cart', pid: '206', created_at: Time.new(2019, 07, 10) },
+  { type: 'buy', pid: '207', created_at: Time.new(2019, 07, 10) },
+  { type: 'add_to_fav', pid: '208', created_at: Time.new(2019, 07, 10) },
+  { type: 'add_to_fav', pid: '209', created_at: Time.new(2019, 07, 10) },
+  { type: 'add_to_fav', pid: '210', created_at: Time.new(2019, 07, 10) }
 ].freeze
 
 set :port, (ENV['PORT'] || 4567)
@@ -40,6 +40,7 @@ post '/_internal/griffin/vertex/search-adjacent-vertex-edge' do
   build_activities(@edge_filter_values&.first)
   vertex_edge_data = @activities.map do |x|
     {
+      user_actv_created_at: x[:created_at].to_i * 1000,
       user_actv_type: x[:type],
       product_id: x[:pid]
     }

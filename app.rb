@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'sinatra'
+require 'pry'
 
 PRODUCT_CATEGORIES = {
   '201' => '8',
@@ -26,21 +27,22 @@ before do
   content_type 'application/json'
 
   request.body.rewind
-  @request_payload = JSON.parse request.body.read
-  @vertex_start_filter_keys = @request_payload['vertex_start_filter_keys']
-  @vertex_start_filter_values = @request_payload['vertex_start_filter_values']
-  @edge_filter_values = @request_payload['edge_filter_values']
-  @offset = @request_payload['offset'].to_i
-  @limit = (@request_payload['limit'] || 1).to_i
+  request_payload = JSON.parse request.body.read
+  vertex_start_filters = request_payload['vertex_start_filters']
+  @vertex_start_filter_key = vertex_start_filters.first['key']
+  @vertex_start_filter_value = vertex_start_filters.first['value']
+  @offset = request_payload['offset'].to_i
+  @limit = (request_payload['limit'] || 1).to_i
 end
 
-post '/_internal/griffin/vertex/search-adjacent-vertex' do
+post '/_internal/griffin/vertex/search-adjacent-v' do
   vertex_data = []
-  if @vertex_start_filter_keys&.first == 'product_id'
-    cid = PRODUCT_CATEGORIES[@vertex_start_filter_values&.first] || "0"
-    vertex_data = [{ "category_id": cid }]
+  if @vertex_start_filter_key == 'product_id'
+    cid = PRODUCT_CATEGORIES[@vertex_start_filter_value] || '0'
+    vertex_data = [{ category_id: cid }]
+    @eod = true
   else
-    build_activities(@edge_filter_values)
+    build_activities
     vertex_data = @activities.map { |x| { product_id: x[:pid] } }
   end
   {
@@ -49,8 +51,8 @@ post '/_internal/griffin/vertex/search-adjacent-vertex' do
   }.to_json
 end
 
-post '/_internal/griffin/vertex/search-adjacent-vertex-edge' do
-  build_activities(@edge_filter_values&.first)
+post '/_internal/griffin/vertex/search-adjacent-ve' do
+  build_activities
   vertex_edge_data = @activities.map do |x|
     {
       user_actv_created_at: x[:created_at].to_i * 1000,
@@ -64,8 +66,10 @@ post '/_internal/griffin/vertex/search-adjacent-vertex-edge' do
   }.to_json
 end
 
-def build_activities(filters)
-  @activities = USER_ACTIVITIES.select { |x| filters.include?(x[:type]) }
+def build_activities
+  @activities = USER_ACTIVITIES.select do |x|
+    @edge_filter_value.include?(x[:type])
+  end
   @eod = @offset + @limit >= @activities.length
   @activities = @activities.drop(@offset)
   @activities = @activities.take(@limit)

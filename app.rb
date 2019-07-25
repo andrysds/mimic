@@ -27,12 +27,16 @@ before do
   content_type 'application/json'
 
   request.body.rewind
-  request_payload = JSON.parse request.body.read
-  vertex_start_filters = request_payload['vertex_start_filters']
+  raw_body = request.body.read
+  puts(raw_body)
+  body = JSON.parse(raw_body)
+  vertex_start_filters = body['vertex_start_filters']
   @vertex_start_filter_key = vertex_start_filters.first['key']
   @vertex_start_filter_value = vertex_start_filters.first['value']
-  @offset = request_payload['offset'].to_i
-  @limit = (request_payload['limit'] || 1).to_i
+  edge_filters = body['edge_filters']
+  @edge_filter_value = edge_filters.first['value'] if edge_filters
+  @offset = body['offset'].to_i
+  @limit = (body['limit'] || 1).to_i
 end
 
 post '/_internal/griffin/vertex/search-adjacent-v' do
@@ -68,7 +72,8 @@ end
 
 def build_activities
   @activities = USER_ACTIVITIES.select do |x|
-    @edge_filter_value.include?(x[:type])
+    filter = @edge_filter_value
+    filter.is_a?(Array) ? filter.include?(x[:type]) : filter == x[:type]
   end
   @eod = @offset + @limit >= @activities.length
   @activities = @activities.drop(@offset)
